@@ -4,10 +4,10 @@ exports[`HeaderComponent Deve desenhar o componente corretamente 1`] = `
 <body>
   <div>
     <div
-      class="sc-idiyUo wCFDq"
+      class="sc-bBrHrO eRIqyK"
     >
       <svg
-        class="sc-dIouRR cUxhAQ"
+        class="sc-ivTmOn bKroDU"
         color="#ffffff"
         fill="currentColor"
         height="40"
@@ -27,15 +27,15 @@ exports[`HeaderComponent Deve desenhar o componente corretamente 1`] = `
         />
       </svg>
       <h1
-        class="sc-hHLeRK Cxlpw"
+        class="sc-cxabCf fcnMxZ"
       >
         Sua Horta
       </h1>
       <div
-        class="sc-dmRaPn hECnYE"
+        class="sc-llJcti cZMRVQ"
       >
         <button
-          class="sc-kgflAQ ksRWXD"
+          class="sc-iIPllB gotJFz"
         >
           <svg
             color="#ffffff"
@@ -57,7 +57,7 @@ exports[`HeaderComponent Deve desenhar o componente corretamente 1`] = `
           </svg>
         </button>
         <button
-          class="sc-kgflAQ ksRWXD"
+          class="sc-iIPllB gotJFz"
         >
           <svg
             color="#ffffff"

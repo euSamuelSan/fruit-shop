@@ -7,7 +7,7 @@ exports[`CheckoutModalView Deve desenhar o componente com produtos corretamente 
       class="sc-bczRLJ jvojZY"
     >
       <div
-        class="sc-gsnTZi iIKTfW"
+        class="sc-gsnTZi kXlfhk"
         height="400px"
         width="500px"
       >
@@ -38,26 +38,26 @@ exports[`CheckoutModalView Deve desenhar o componente com produtos corretamente 
           </button>
         </div>
         <div
-          class="sc-fnykZs ceFtpf"
+          class="sc-hHLeRK eIBavE"
         >
           <div
-            class="sc-ksZaOG dNKrkI"
+            class="sc-idiyUo gMGaqw"
           >
             <p
-              class="sc-hAZoDl icLmXY"
+              class="sc-dIouRR kffFPb"
             />
             <p
-              class="sc-hAZoDl icLmXY"
+              class="sc-dIouRR kffFPb"
             >
               Produto
             </p>
             <p
-              class="sc-hAZoDl icLmXY"
+              class="sc-dIouRR kffFPb"
             >
               Subtotal
             </p>
             <p
-              class="sc-hAZoDl icLmXY"
+              class="sc-dIouRR kffFPb"
             />
           </div>
           <div
@@ -143,10 +143,10 @@ exports[`CheckoutModalView Deve desenhar o componente com produtos corretamente 
           </div>
         </div>
         <div
-          class="sc-fEOsli eWTHOO"
+          class="sc-dmRaPn dZbKew"
         >
           <p
-            class="sc-bjUoiL dCKJQI"
+            class="sc-kgflAQ knhtDh"
           >
             Total: 
             R$ 1,00
@@ -210,6 +210,78 @@ exports[`CheckoutModalView Deve desenhar o componente com produtos corretamente 
             </p>
           </button>
         </div>
+        <div
+          class="sc-fLlhyt eMmABn"
+        >
+          <div
+            class="sc-crXcEl inNjle"
+          >
+            <h2
+              class="sc-evZas"
+            >
+              Comprovante de pagamento
+            </h2>
+            <div
+              class="sc-ksZaOG ivvAef"
+            >
+              <p
+                class="sc-hAZoDl fGGngD"
+              >
+                Produto
+              </p>
+              <p
+                class="sc-hAZoDl fGGngD"
+              >
+                Preço
+              </p>
+              <p
+                class="sc-hAZoDl fGGngD"
+              >
+                Qtid.
+              </p>
+              <p
+                class="sc-hAZoDl fGGngD"
+              >
+                Total
+              </p>
+            </div>
+            <div
+              class="sc-breuTD iVvjbX"
+            >
+              <p>
+                Maçã
+              </p>
+              <p>
+                R$ 5,56
+                 por 
+                KG
+              </p>
+              <p>
+                2
+                 
+                KG
+              </p>
+              <p>
+                R$ 11,12
+              </p>
+            </div>
+            <div
+              class="sc-breuTD joYVSZ"
+            >
+              <p />
+            </div>
+            <div
+              class="sc-breuTD iVvjbX"
+            >
+              <p />
+              <p />
+              <p />
+              <p>
+                R$ 1,00
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -223,7 +295,7 @@ exports[`CheckoutModalView Deve desenhar o componente corretamente 1`] = `
       class="sc-bczRLJ jvojZY"
     >
       <div
-        class="sc-gsnTZi iIKTfW"
+        class="sc-gsnTZi kXlfhk"
         height="400px"
         width="500px"
       >
@@ -254,10 +326,10 @@ exports[`CheckoutModalView Deve desenhar o componente corretamente 1`] = `
           </button>
         </div>
         <div
-          class="sc-crXcEl iCOoPH"
+          class="sc-fnykZs ewioTb"
         >
           <svg
-            class="sc-breuTD"
+            class="sc-bjUoiL"
             color="#a3e9a4"
             fill="currentColor"
             height="64"
@@ -277,12 +349,64 @@ exports[`CheckoutModalView Deve desenhar o componente corretamente 1`] = `
             />
           </svg>
           <p
-            class="sc-evZas fRLgxg"
+            class="sc-fEOsli hCrMfV"
           >
             Parece que você não possui produtos no carrinho. 
             <br />
             Volte para a loja para adicionar mais itens!
           </p>
+        </div>
+        <div
+          class="sc-fLlhyt eMmABn"
+        >
+          <div
+            class="sc-crXcEl inNjle"
+          >
+            <h2
+              class="sc-evZas"
+            >
+              Comprovante de pagamento
+            </h2>
+            <div
+              class="sc-ksZaOG ivvAef"
+            >
+              <p
+                class="sc-hAZoDl fGGngD"
+              >
+                Produto
+              </p>
+              <p
+                class="sc-hAZoDl fGGngD"
+              >
+                Preço
+              </p>
+              <p
+                class="sc-hAZoDl fGGngD"
+              >
+                Qtid.
+              </p>
+              <p
+                class="sc-hAZoDl fGGngD"
+              >
+                Total
+              </p>
+            </div>
+            <div
+              class="sc-breuTD iVvjbX"
+            >
+              <p />
+            </div>
+            <div
+              class="sc-breuTD joYVSZ"
+            >
+              <p />
+              <p />
+              <p />
+              <p>
+                R$ 1,00
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -4,10 +4,10 @@ exports[`Deve desenhar a aplicação corretamente 1`] = `
 <body>
   <div>
     <div
-      class="sc-himrzO dtMuii"
+      class="sc-iTONeN hVhjZO"
     >
       <svg
-        class="sc-gXmSlM esFtuv"
+        class="sc-iAvgwm hbzhyg"
         color="#ffffff"
         fill="currentColor"
         height="40"
@@ -27,15 +27,15 @@ exports[`Deve desenhar a aplicação corretamente 1`] = `
         />
       </svg>
       <h1
-        class="sc-cCsOjp dokPhi"
+        class="sc-efBctP fWfCFy"
       >
         Sua Horta
       </h1>
       <div
-        class="sc-ciZhAO bIENDq"
+        class="sc-cTQhss cmwdyS"
       >
         <button
-          class="sc-jdAMXn jLfBBN"
+          class="sc-jOrMOR jsAYQy"
         >
           <svg
             color="#ffffff"
@@ -57,7 +57,7 @@ exports[`Deve desenhar a aplicação corretamente 1`] = `
           </svg>
         </button>
         <button
-          class="sc-jdAMXn jLfBBN"
+          class="sc-jOrMOR jsAYQy"
         >
           <svg
             color="#ffffff"
@@ -118,18 +118,18 @@ exports[`Deve desenhar a aplicação corretamente 1`] = `
       />
     </div>
     <div
-      class="sc-iAvgwm btxdjX"
+      class="sc-cOFTSb huTOMH"
     >
       <p
-        class="sc-efBctP gecXra"
+        class="sc-BeQoi fVnnro"
       >
         © 2022 SAN, Samuel.
       </p>
       <div
-        class="sc-cTQhss jDWAyq"
+        class="sc-kgUAyh bEGnhB"
       >
         <a
-          class="sc-jOrMOR jVqdmt"
+          class="sc-hTtwUo dhNByH"
           href="https://github.com/euSamuelSan"
           target="_blank"
         >
@@ -151,7 +151,7 @@ exports[`Deve desenhar a aplicação corretamente 1`] = `
           </svg>
         </a>
         <a
-          class="sc-jOrMOR jVqdmt"
+          class="sc-hTtwUo dhNByH"
           href="https://www.linkedin.com/in/samuel-san-juan/"
           target="_blank"
         >
@@ -173,7 +173,7 @@ exports[`Deve desenhar a aplicação corretamente 1`] = `
           </svg>
         </a>
         <a
-          class="sc-jOrMOR jVqdmt"
+          class="sc-hTtwUo dhNByH"
           href="https://instagram.com/euSamuelSan"
           target="_blank"
         >
@@ -195,7 +195,7 @@ exports[`Deve desenhar a aplicação corretamente 1`] = `
           </svg>
         </a>
         <a
-          class="sc-jOrMOR jVqdmt"
+          class="sc-hTtwUo dhNByH"
           href="https://twitter.com/euSamuelSan"
           target="_blank"
         >
