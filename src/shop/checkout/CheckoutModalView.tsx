@@ -151,13 +151,17 @@ const Container = styled.div`
 `
 
 const Footer = styled.div`
-    width: 480px;
+    width: 95%;
     margin-top: auto;
     align-self: flex-end;
     flex-direction: flex-end;
     display: flex;
     gap: 5px;
     padding: 10px;
+
+    @media (max-width: 500px) {
+        font-size: 16px;
+    }
 `
 
 const TotalPriceText = styled.p`
