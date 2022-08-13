@@ -7,6 +7,7 @@ export type InputProps = {
     className?: string
     value: string
     onChange: (e: React.ChangeEvent<HTMLInputElement>) => void
+    type?: string
 }
 
 export default function Input({
@@ -14,10 +15,11 @@ export default function Input({
     className,
     value,
     onChange,
+    type = 'text',
 }: InputProps): JSX.Element {
     return (
         <BasicInput
-            type="text"
+            type={type}
             placeholder={placeholder}
             className={className}
             value={value}

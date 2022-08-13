@@ -1,16 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Deve desenhar a aplicação corretamente 1`] = `
+exports[`LoginScreen Deve desenhar o componente corretamente 1`] = `
 <body>
   <div>
     <div
-      class="sc-hiMGwR lakbLm"
+      class="sc-evZas hocglz"
     >
       <div
-        class="sc-jfmDQi iATLOb"
+        class="sc-kDDrLX GoLZv"
       >
         <svg
-          class="sc-eKszNL iAVHmC"
+          class="sc-iqcoie kZHDqr"
           color="#57bd41"
           fill="currentColor"
           height="40"
@@ -30,46 +30,46 @@ exports[`Deve desenhar a aplicação corretamente 1`] = `
           />
         </svg>
         <h1
-          class="sc-olbas cPknte"
+          class="sc-crXcEl ytcXS"
         >
           Sua Horta
         </h1>
       </div>
       <form
-        class="sc-ehmTmK jCnaGl"
+        class="sc-breuTD jKXkYb"
       >
         <div
-          class="sc-jgbSNz fPwoof sc-lbOyJj kKJhgn"
+          class="sc-hKMtZM kXkdtS sc-ksZaOG haqmPs"
         >
           <label
-            class="sc-iNWwEs bhHus"
+            class="sc-gKXOVf bSiONC"
           >
             Usuário
           </label>
           <input
-            class="sc-bczRLJ hKuxkL sc-gSAPjG ibloPF"
+            class="sc-dkzDqf hIAzES sc-eCYdqJ gdjXNF"
             placeholder="Usuário"
             type="text"
             value=""
           />
         </div>
         <div
-          class="sc-jgbSNz fPwoof sc-lbOyJj kKJhgn"
+          class="sc-hKMtZM kXkdtS sc-ksZaOG haqmPs"
         >
           <label
-            class="sc-iNWwEs bhHus"
+            class="sc-gKXOVf bSiONC"
           >
             Senha
           </label>
           <input
-            class="sc-bczRLJ hKuxkL sc-gSAPjG ibloPF"
+            class="sc-dkzDqf hIAzES sc-eCYdqJ gdjXNF"
             placeholder="Senha"
             type="password"
             value=""
           />
         </div>
         <button
-          class="sc-dIouRR fTrqsi"
+          class="sc-bczRLJ WejHe"
           color="#57bd41"
         >
           <svg
@@ -89,25 +89,25 @@ exports[`Deve desenhar a aplicação corretamente 1`] = `
             />
           </svg>
           <p
-            class="sc-hHLeRK jwdtGj"
+            class="sc-gsnTZi fWOnJO"
           >
             Entrar
           </p>
         </button>
       </form>
       <div
-        class="sc-cOFTSb huTOMH"
+        class="sc-iBkjds eNjpIt"
       >
         <p
-          class="sc-BeQoi fVnnro"
+          class="sc-ftvSup mRgcO"
         >
           © 2022 SAN, Samuel.
         </p>
         <div
-          class="sc-kgUAyh bEGnhB"
+          class="sc-papXJ MthRH"
         >
           <a
-            class="sc-hTtwUo dhNByH"
+            class="sc-jqUVSM THCZw"
             href="https://github.com/euSamuelSan"
             target="_blank"
           >
@@ -129,7 +129,7 @@ exports[`Deve desenhar a aplicação corretamente 1`] = `
             </svg>
           </a>
           <a
-            class="sc-hTtwUo dhNByH"
+            class="sc-jqUVSM THCZw"
             href="https://www.linkedin.com/in/samuel-san-juan/"
             target="_blank"
           >
@@ -151,7 +151,7 @@ exports[`Deve desenhar a aplicação corretamente 1`] = `
             </svg>
           </a>
           <a
-            class="sc-hTtwUo dhNByH"
+            class="sc-jqUVSM THCZw"
             href="https://instagram.com/euSamuelSan"
             target="_blank"
           >
@@ -173,7 +173,7 @@ exports[`Deve desenhar a aplicação corretamente 1`] = `
             </svg>
           </a>
           <a
-            class="sc-hTtwUo dhNByH"
+            class="sc-jqUVSM THCZw"
             href="https://twitter.com/euSamuelSan"
             target="_blank"
           >

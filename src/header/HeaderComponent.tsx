@@ -1,14 +1,17 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-import Colors from '../commons/Colors'
-import { IoLeafOutline } from 'react-icons/io5'
 import { AiOutlineShoppingCart, AiOutlineLogout } from 'react-icons/ai'
-import CheckoutModalComponent from '../shop/checkout/CheckoutModalComponent'
+import { IoLeafOutline } from 'react-icons/io5'
+import { Navigate } from 'react-router-dom'
+
+import Colors from '../commons/Colors'
 import { useUserContext } from '../context/UserContext'
+import CheckoutModalComponent from '../shop/checkout/CheckoutModalComponent'
 
 export default function HeaderComponent(): JSX.Element {
     const [isCheckoutModalVisible, setIsCheckoutModalVisible] =
         useState<boolean>(false)
+    const [redirectToLogin, setRedirectToLogin] = useState<boolean>(false)
     const { cartItems } = useUserContext()
 
     const handleCartIndicator = () => {
@@ -18,6 +21,11 @@ export default function HeaderComponent(): JSX.Element {
                 <CartCounterText>{itemsInCart}</CartCounterText>
             </CartCounterIndicator>
         ) : null
+    }
+
+    const logout = () => {
+        localStorage.clear()
+        setRedirectToLogin(true)
     }
 
     return (
@@ -35,12 +43,15 @@ export default function HeaderComponent(): JSX.Element {
                         {handleCartIndicator()}
                     </>
                 </Action>
-                <Action>
-                    <AiOutlineLogout
-                        color={Colors.white}
-                        size={24}
-                        title="Sair"
-                    />
+                <Action onClick={() => logout()}>
+                    <>
+                        <AiOutlineLogout
+                            color={Colors.white}
+                            size={24}
+                            title="Sair"
+                        />
+                        {redirectToLogin && <Navigate to="/" />}
+                    </>
                 </Action>
             </ActionsContainer>
             <CheckoutModalComponent
