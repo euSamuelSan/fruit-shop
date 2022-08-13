@@ -4,13 +4,13 @@ exports[`CatalogView Deve desenhar o componente corretamente 1`] = `
 <body>
   <div>
     <div
-      class="sc-breuTD cYZEdj"
+      class="sc-breuTD gRSwPg"
     >
       <div
         class="sc-ksZaOG hWsKsx"
       >
         <div
-          class="sc-gsnTZi gwWpqO"
+          class="sc-gsnTZi oaevL"
         >
           <svg
             class="sc-dkzDqf gavTNQ"
@@ -37,7 +37,7 @@ exports[`CatalogView Deve desenhar o componente corretamente 1`] = `
         </div>
       </div>
       <div
-        class="sc-iBkjds kbsyoo"
+        class="sc-iBkjds hMNVUq"
       />
     </div>
   </div>

@@ -5,3 +5,6 @@ export const removeAccents = (str?: string): string => {
 }
 
 export const normalize = (str: string) => removeAccents(str).toLowerCase()
+
+export const standardizePrice = (price: number): string =>
+    `R$ ${price.toFixed(2).replace('.', ',')}`

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Deve desenhar a aplicação corretamente 1`] = `
+exports[`HomeScreen Deve desenhar o componente corretamente 1`] = `
 <body>
   <div>
     <div

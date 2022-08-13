@@ -1,9 +1,16 @@
-import React from "react";
-import "./App.css";
-import Shop from "./shop";
+import React from 'react'
+import './App.css'
+import UserContextProvider from './context/UserContext'
+import HomeScreen from './home/HomeScreen'
 
 function App() {
-    return <Shop />;
+    return (
+        <>
+            <UserContextProvider>
+                <HomeScreen />
+            </UserContextProvider>
+        </>
+    )
 }
 
-export default App;
+export default App

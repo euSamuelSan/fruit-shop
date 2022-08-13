@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Colors from '../../commons/Colors'
 import SearchBar from '../../commons/components/SearchBar'
 import ProductsGrid from '../productsGrid'
 
@@ -29,6 +30,9 @@ export default function CatalogView({
 const Container = styled.div`
     display: flex;
     flex-direction: column;
+    align-items: center;
+    background-color: ${Colors.veryLightPink};
+    height: 100vh;
 `
 
 const CatalogHeader = styled.div`

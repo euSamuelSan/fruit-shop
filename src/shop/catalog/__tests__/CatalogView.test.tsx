@@ -1,4 +1,4 @@
-import { render, RenderResult } from '@testing-library/react'
+import { render, RenderResult, fireEvent, screen } from '@testing-library/react'
 
 import CatalogView, { CatalogViewProps } from '../CatalogView'
 
@@ -16,5 +16,17 @@ describe('CatalogView', () => {
         renderCatalog()
 
         expect(document.body).toMatchSnapshot()
+    })
+
+    it('Deve chamar o handleOnChangeSearch ao alterar o valor do input', () => {
+        const props = getProps()
+        renderCatalog(props)
+
+        const input = screen.getByPlaceholderText(
+            'Pesquise por nome do produto'
+        )
+        fireEvent.change(input, { target: { value: 'a' } })
+
+        expect(props.handleOnChangeSearch).toHaveBeenCalled()
     })
 })

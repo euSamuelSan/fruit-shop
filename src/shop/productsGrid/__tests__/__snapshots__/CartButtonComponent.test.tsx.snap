@@ -3,8 +3,8 @@
 exports[`CartButtonComponent Deve desenhar o componente corretamente 1`] = `
 <body>
   <div>
-    <div
-      class="sc-bczRLJ eDKqXS"
+    <button
+      class="sc-bczRLJ gIpDwf"
     >
       <svg
         class="sc-dkzDqf kLbpTo"
@@ -26,7 +26,7 @@ exports[`CartButtonComponent Deve desenhar o componente corretamente 1`] = `
       >
         Adicionar ao carrinho
       </p>
-    </div>
+    </button>
   </div>
 </body>
 `;

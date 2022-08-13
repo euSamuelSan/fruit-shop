@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import Colors from '../../commons/Colors'
 import { Fruit } from '../ProductsAPI'
 import CartButtonComponent from './CartButtonComponent'
+import { standardizePrice } from '../../commons/StringUtils'
 
 export type ProductsGridViewProps = {
     data: Fruit[]
@@ -12,9 +13,6 @@ export type ProductsGridViewProps = {
 export default function ProductsGridView({
     data,
 }: ProductsGridViewProps): JSX.Element {
-    const standardizePrice = (price: number): string =>
-        `R$ ${price.toLocaleString('pt-br')}`
-
     const renderProducts = () => {
         return data.map(item => (
             <ProductCardContainer key={item.id}>
@@ -30,7 +28,7 @@ export default function ProductsGridView({
                         </Price>
                     </ProductInfo>
                 </ProductInfoContainer>
-                <CartButtonComponent />
+                <CartButtonComponent productId={item.id} />
             </ProductCardContainer>
         ))
     }
@@ -43,7 +41,7 @@ const Container = styled.div`
     grid-template-columns: repeat(3, auto);
     gap: 10px;
 
-    width: min-content; //TODO: REMOVER
+    width: min-content;
 `
 
 const ProductImage = styled.img`
@@ -62,6 +60,7 @@ const ProductCardContainer = styled.div`
 
     border-radius: 4px;
     box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.1);
+    background-color: ${Colors.white};
 
     &:hover {
         background-color: ${Colors.lightBlueGreyFour};

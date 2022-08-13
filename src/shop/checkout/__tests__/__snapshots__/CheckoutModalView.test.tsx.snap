@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckoutModalView Deve desenhar o componente com produtos corretamente 1`] = `
+<body>
+  <div>
+    <div
+      class="sc-bczRLJ iVAlPu"
+    >
+      <div
+        class="sc-gsnTZi iIKTfW"
+        height="400px"
+        width="500px"
+      >
+        <div
+          class="sc-dkzDqf gtawzm"
+        >
+          <p
+            class="sc-hKMtZM kYtwUi"
+          >
+            Checkout
+          </p>
+          <button
+            class="sc-eCYdqJ gHfvpn"
+          >
+            <svg
+              fill="currentColor"
+              height="20"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M563.8 512l262.5-312.9c4.4-5.2.7-13.1-6.1-13.1h-79.8c-4.7 0-9.2 2.1-12.3 5.7L511.6 449.8 295.1 191.7c-3-3.6-7.5-5.7-12.3-5.7H203c-6.8 0-10.5 7.9-6.1 13.1L459.4 512 196.9 824.9A7.95 7.95 0 0 0 203 838h79.8c4.7 0 9.2-2.1 12.3-5.7l216.5-258.1 216.5 258.1c3 3.6 7.5 5.7 12.3 5.7h79.8c6.8 0 10.5-7.9 6.1-13.1L563.8 512z"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="sc-fnykZs ceFtpf"
+        >
+          <div
+            class="sc-ksZaOG dNKrkI"
+          >
+            <p
+              class="sc-hAZoDl icLmXY"
+            />
+            <p
+              class="sc-hAZoDl icLmXY"
+            >
+              Produto
+            </p>
+            <p
+              class="sc-hAZoDl icLmXY"
+            >
+              Subtotal
+            </p>
+            <p
+              class="sc-hAZoDl icLmXY"
+            />
+          </div>
+          <div
+            class="sc-iBkjds hPDXXX"
+          >
+            <img
+              alt="Maçã"
+              class="sc-ftvSup fapAys"
+              src="apple.png"
+            />
+            <p
+              class="sc-papXJ eeksmv"
+            >
+              Maçã
+            </p>
+            <p
+              class="sc-papXJ eeksmv"
+            >
+              <b>
+                R$ 11,12
+              </b>
+               (
+              R$ 5,56
+               por 
+              KG
+              )
+            </p>
+            <div
+              class="sc-kDDrLX jbqpdq"
+            >
+              <button
+                class="sc-iqcoie rqbip"
+              >
+                <svg
+                  color="#8e8e93"
+                  fill="currentColor"
+                  height="20"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  style="color: rgb(142, 142, 147);"
+                  viewBox="0 0 1024 1024"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>
+                    Remover
+                  </title>
+                  <path
+                    d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm192 472c0 4.4-3.6 8-8 8H328c-4.4 0-8-3.6-8-8v-48c0-4.4 3.6-8 8-8h368c4.4 0 8 3.6 8 8v48z"
+                  />
+                </svg>
+              </button>
+              <p
+                class="sc-papXJ sc-jqUVSM eeksmv kispeS"
+              >
+                2
+                 
+                KG
+              </p>
+              <button
+                class="sc-iqcoie rqbip"
+              >
+                <svg
+                  color="#8e8e93"
+                  fill="currentColor"
+                  height="20"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  style="color: rgb(142, 142, 147);"
+                  viewBox="0 0 1024 1024"
+                  width="20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>
+                    Adicionar
+                  </title>
+                  <path
+                    d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm192 472c0 4.4-3.6 8-8 8H544v152c0 4.4-3.6 8-8 8h-48c-4.4 0-8-3.6-8-8V544H328c-4.4 0-8-3.6-8-8v-48c0-4.4 3.6-8 8-8h152V328c0-4.4 3.6-8 8-8h48c4.4 0 8 3.6 8 8v152h152c4.4 0 8 3.6 8 8v48z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-fEOsli eWTHOO"
+        >
+          <p
+            class="sc-bjUoiL dCKJQI"
+          >
+            Total: 
+            R$ 1,00
+          </p>
+          <button
+            class="sc-jSMfEi dIpffO"
+            color="#eb394b"
+          >
+            <svg
+              color="#eb394b"
+              fill="none"
+              height="16"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              style="color: rgb(235, 57, 75);"
+              viewBox="0 0 24 24"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="3 6 5 6 21 6"
+              />
+              <path
+                d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+              />
+            </svg>
+            <p
+              class="sc-gKXOVf xXklM"
+            >
+              Limpar Carrinho
+            </p>
+          </button>
+          <button
+            class="sc-jSMfEi gRQbRT"
+            color="#57bd41"
+          >
+            <svg
+              color="#ffffff"
+              fill="currentColor"
+              height="16"
+              stroke="currentColor"
+              stroke-width="0"
+              style="color: rgb(255, 255, 255);"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11 5.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1z"
+              />
+              <path
+                d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2zm13 2v5H1V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1zm-1 9H2a1 1 0 0 1-1-1v-1h14v1a1 1 0 0 1-1 1z"
+              />
+            </svg>
+            <p
+              class="sc-gKXOVf xXklM"
+            >
+              Finalizar Pedido
+            </p>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`CheckoutModalView Deve desenhar o componente corretamente 1`] = `
+<body>
+  <div>
+    <div
+      class="sc-bczRLJ iVAlPu"
+    >
+      <div
+        class="sc-gsnTZi iIKTfW"
+        height="400px"
+        width="500px"
+      >
+        <div
+          class="sc-dkzDqf gtawzm"
+        >
+          <p
+            class="sc-hKMtZM kYtwUi"
+          >
+            Checkout
+          </p>
+          <button
+            class="sc-eCYdqJ gHfvpn"
+          >
+            <svg
+              fill="currentColor"
+              height="20"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M563.8 512l262.5-312.9c4.4-5.2.7-13.1-6.1-13.1h-79.8c-4.7 0-9.2 2.1-12.3 5.7L511.6 449.8 295.1 191.7c-3-3.6-7.5-5.7-12.3-5.7H203c-6.8 0-10.5 7.9-6.1 13.1L459.4 512 196.9 824.9A7.95 7.95 0 0 0 203 838h79.8c4.7 0 9.2-2.1 12.3-5.7l216.5-258.1 216.5 258.1c3 3.6 7.5 5.7 12.3 5.7h79.8c6.8 0 10.5-7.9 6.1-13.1L563.8 512z"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="sc-crXcEl iCOoPH"
+        >
+          <svg
+            class="sc-breuTD"
+            color="#a3e9a4"
+            fill="currentColor"
+            height="64"
+            stroke="currentColor"
+            stroke-width="0"
+            style="color: rgb(163, 233, 164);"
+            viewBox="0 0 16 16"
+            width="64"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z"
+              fill-rule="evenodd"
+            />
+            <path
+              d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"
+            />
+          </svg>
+          <p
+            class="sc-evZas fRLgxg"
+          >
+            Parece que você não possui produtos no carrinho. 
+            <br />
+            Volte para a loja para adicionar mais itens!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

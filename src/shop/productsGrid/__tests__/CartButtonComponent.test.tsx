@@ -4,7 +4,7 @@ import CartButtonComponent from '../CartButtonComponent'
 
 describe('CartButtonComponent', () => {
     const renderCartButton = (): RenderResult => {
-        return render(<CartButtonComponent />)
+        return render(<CartButtonComponent productId="ANY_PRODUCT_ID" />)
     }
 
     it('Deve desenhar o componente corretamente', () => {

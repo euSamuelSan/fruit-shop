@@ -1,22 +1,35 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react'
+import styled from 'styled-components'
 
-import Colors from "../../commons/Colors";
-import { AiOutlineShoppingCart } from "react-icons/ai";
+import Colors from '../../commons/Colors'
+import { AiOutlineShoppingCart } from 'react-icons/ai'
+import { useUserContext } from '../../context/UserContext'
 
-export default function CartButtonComponent(): JSX.Element {
+type CartButtonComponentProps = {
+    productId: string
+}
+export default function CartButtonComponent({
+    productId,
+}: CartButtonComponentProps): JSX.Element {
+    const { onChangeCartItems, cartItems } = useUserContext()
+
+    const handleOnClick = () => {
+        onChangeCartItems('add', productId)
+    }
+
     return (
-        <Container>
+        <Button onClick={handleOnClick}>
             <CartIcon /> <Text>Adicionar ao carrinho</Text>
-        </Container>
-    );
+        </Button>
+    )
 }
 
-const Container = styled.div`
+const Button = styled.button`
     display: flex;
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
+    border: none;
     border-radius: 0 0 4px 4px;
     padding: 0 5px;
 
@@ -25,15 +38,15 @@ const Container = styled.div`
         background-color: ${Colors.bluishGreen};
         transition: background-color 0.2s;
     }
-`;
+`
 
 const Text = styled.p`
     font-size: 14px;
     font-weight: 500;
     color: ${Colors.white};
-`;
+`
 
 const CartIcon = styled(AiOutlineShoppingCart)`
     width: 24px;
     color: ${Colors.white};
-`;
+`

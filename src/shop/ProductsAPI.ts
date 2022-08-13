@@ -12,9 +12,21 @@ export type Fruit = {
     measurementUnit: string
 }
 
-export const getAllFruits = async () => {
+export const getAllFruits = async (): Promise<any> => {
     try {
         return Promise.resolve({ data: fruitsMock })
+    } catch (err) {
+        console.error(err)
+    }
+}
+
+export const getFruitById = async (id: string): Promise<any> => {
+    try {
+        const item = fruitsMock.find(fruit => fruit.id === id)
+
+        return item
+            ? Promise.resolve({ data: item })
+            : Promise.reject('ID informado não encontrado.')
     } catch (err) {
         console.error(err)
     }

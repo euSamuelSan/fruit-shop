@@ -30,6 +30,7 @@ const Container = styled.div`
 
     border: 2px solid ${Colors.lightGrey};
     border-radius: 3px;
+    background-color: ${Colors.white};
     width: fit-content;
 `
 
