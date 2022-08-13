@@ -61,19 +61,37 @@ const ModalOverlay = styled.div<Partial<ModalProps>>`
 `
 
 const ModalContainer = styled.div<Partial<ModalProps>>`
-    position: fixed;
     z-index: ${props => props.zIndex};
     width: ${props => props.width};
     height: ${props => props.height};
 
-    border-radius: 4px;
-    top: 13vw;
-    left: 32vw;
-
-    background-color: ${Colors.white};
-
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
+
+    background-color: ${Colors.white};
+    border-radius: 4px;
+
+    animation-name: modal-animation;
+    animation-duration: 0.5s;
+
+    @keyframes modal-animation {
+        from {
+            top: -100px;
+            opacity: 0;
+        }
+        to {
+            top: 50%;
+            opacity: 1;
+        }
+    }
+
+    @media (max-width: 570px) {
+        width: 95%;
+    }
 `
 
 const ModalHeader = styled.div`

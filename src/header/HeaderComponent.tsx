@@ -90,6 +90,10 @@ const ActionsContainer = styled.div`
     gap: 10px;
     margin-left: auto;
     padding-right: 20px;
+
+    @media (max-width: 370px) {
+        padding-right: 5px;
+    }
 `
 
 const Action = styled.button`

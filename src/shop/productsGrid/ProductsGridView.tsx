@@ -38,10 +38,17 @@ export default function ProductsGridView({
 
 const Container = styled.div`
     display: grid;
-    grid-template-columns: repeat(3, auto);
     gap: 10px;
-
     width: min-content;
+    grid-template-columns: repeat(3, auto);
+
+    @media (max-width: 560px) {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    @media (max-width: 370px) {
+        grid-template-columns: repeat(1, auto);
+    }
 `
 
 const ProductImage = styled.img`

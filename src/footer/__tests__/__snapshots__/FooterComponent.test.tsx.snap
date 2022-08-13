@@ -12,23 +12,25 @@ exports[`FooterComponent Deve desenhar o componente corretamente 1`] = `
         © 2022 SAN, Samuel.
       </p>
       <div
-        class="sc-dkzDqf kCuVwq"
+        class="sc-dkzDqf ehIZjO"
       >
         <a
           class="sc-hKMtZM jmCxrv"
           href="https://github.com/euSamuelSan"
           target="_blank"
         >
-          Github 
+          Github
+           
           <svg
+            class="icon"
             color="#ffffff"
             fill="currentColor"
-            height="1em"
+            height="18"
             stroke="currentColor"
             stroke-width="0"
             style="color: rgb(255, 255, 255);"
             viewBox="0 0 1024 1024"
-            width="1em"
+            width="18"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
@@ -41,16 +43,18 @@ exports[`FooterComponent Deve desenhar o componente corretamente 1`] = `
           href="https://www.linkedin.com/in/samuel-san-juan/"
           target="_blank"
         >
-          LinkedIn 
+          LinkedIn
+           
           <svg
+            class="icon"
             color="#ffffff"
             fill="currentColor"
-            height="1em"
+            height="18"
             stroke="currentColor"
             stroke-width="0"
             style="color: rgb(255, 255, 255);"
             viewBox="0 0 1024 1024"
-            width="1em"
+            width="18"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
@@ -63,16 +67,18 @@ exports[`FooterComponent Deve desenhar o componente corretamente 1`] = `
           href="https://instagram.com/euSamuelSan"
           target="_blank"
         >
-          Instagram 
+          Instagram
+           
           <svg
+            class="icon"
             color="#ffffff"
             fill="currentColor"
-            height="1em"
+            height="18"
             stroke="currentColor"
             stroke-width="0"
             style="color: rgb(255, 255, 255);"
             viewBox="0 0 1024 1024"
-            width="1em"
+            width="18"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
@@ -85,16 +91,18 @@ exports[`FooterComponent Deve desenhar o componente corretamente 1`] = `
           href="https://twitter.com/euSamuelSan"
           target="_blank"
         >
-          Twitter 
+          Twitter
+           
           <svg
+            class="icon"
             color="#ffffff"
             fill="currentColor"
-            height="1em"
+            height="18"
             stroke="currentColor"
             stroke-width="0"
             style="color: rgb(255, 255, 255);"
             viewBox="0 0 1024 1024"
-            width="1em"
+            width="18"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path

@@ -16,16 +16,36 @@ export default function Footer(): JSX.Element {
             <Text>© 2022 SAN, Samuel.</Text>
             <SocialMediaContainer>
                 <SocialMedia href={BASE_URLS.GITHUB} target="_blank">
-                    Github <AiOutlineGithub color={Colors.white} />
+                    Github{' '}
+                    <AiOutlineGithub
+                        color={Colors.white}
+                        size={18}
+                        className="icon"
+                    />
                 </SocialMedia>
                 <SocialMedia href={BASE_URLS.LINKEDIN} target="_blank">
-                    LinkedIn <AiOutlineLinkedin color={Colors.white} />
+                    LinkedIn{' '}
+                    <AiOutlineLinkedin
+                        color={Colors.white}
+                        size={18}
+                        className="icon"
+                    />
                 </SocialMedia>
                 <SocialMedia href={BASE_URLS.INSTAGRAM} target="_blank">
-                    Instagram <AiOutlineInstagram color={Colors.white} />
+                    Instagram{' '}
+                    <AiOutlineInstagram
+                        color={Colors.white}
+                        size={18}
+                        className="icon"
+                    />
                 </SocialMedia>
                 <SocialMedia href={BASE_URLS.TWITTER} target="_blank">
-                    Twitter <AiOutlineTwitter color={Colors.white} />
+                    Twitter{' '}
+                    <AiOutlineTwitter
+                        color={Colors.white}
+                        size={18}
+                        className="icon"
+                    />
                 </SocialMedia>
             </SocialMediaContainer>
         </Container>
@@ -52,6 +72,11 @@ const SocialMediaContainer = styled.div`
     margin-left: auto;
     padding-right: 10px;
     text-align: end;
+
+    .icon {
+        position: relative;
+        top: 3px;
+    }
 `
 
 const SocialMedia = styled.a`
