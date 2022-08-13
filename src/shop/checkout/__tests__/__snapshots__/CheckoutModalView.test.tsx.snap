@@ -4,7 +4,7 @@ exports[`CheckoutModalView Deve desenhar o componente com produtos corretamente 
 <body>
   <div>
     <div
-      class="sc-bczRLJ iVAlPu"
+      class="sc-bczRLJ jvojZY"
     >
       <div
         class="sc-gsnTZi iIKTfW"
@@ -220,7 +220,7 @@ exports[`CheckoutModalView Deve desenhar o componente corretamente 1`] = `
 <body>
   <div>
     <div
-      class="sc-bczRLJ iVAlPu"
+      class="sc-bczRLJ jvojZY"
     >
       <div
         class="sc-gsnTZi iIKTfW"
