@@ -38,48 +38,48 @@ exports[`CheckoutModalView Deve desenhar o componente com produtos corretamente 
           </button>
         </div>
         <div
-          class="sc-hHLeRK eIBavE"
+          class="sc-dmRaPn jmKLRQ"
         >
           <div
-            class="sc-idiyUo gMGaqw"
+            class="sc-idiyUo eCVEdF"
           >
             <p
-              class="sc-dIouRR kffFPb"
+              class="sc-dIouRR sc-hHLeRK eJVwsA dHjxdv"
             />
             <p
-              class="sc-dIouRR kffFPb"
+              class="sc-dIouRR eJVwsA"
             >
               Produto
             </p>
             <p
-              class="sc-dIouRR kffFPb"
+              class="sc-dIouRR eJVwsA"
             >
               Subtotal
             </p>
             <p
-              class="sc-dIouRR kffFPb"
+              class="sc-dIouRR sc-hHLeRK eJVwsA dHjxdv"
             />
           </div>
           <div
-            class="sc-iBkjds hPDXXX"
+            class="sc-iBkjds bSJSMG"
           >
             <img
               alt="Maçã"
-              class="sc-ftvSup fapAys"
+              class="sc-ftvSup knxmIi"
               src="apple.png"
             />
             <p
-              class="sc-papXJ eeksmv"
+              class="sc-papXJ dvrVtg"
             >
               Maçã
             </p>
             <p
-              class="sc-papXJ eeksmv"
+              class="sc-papXJ dvrVtg"
             >
               <b>
                 R$ 11,12
               </b>
-               (
+              (
               R$ 5,56
                por 
               KG
@@ -89,7 +89,7 @@ exports[`CheckoutModalView Deve desenhar o componente com produtos corretamente 
               class="sc-kDDrLX jbqpdq"
             >
               <button
-                class="sc-iqcoie rqbip"
+                class="sc-iqcoie hHzZwx"
               >
                 <svg
                   color="#8e8e93"
@@ -111,14 +111,14 @@ exports[`CheckoutModalView Deve desenhar o componente com produtos corretamente 
                 </svg>
               </button>
               <p
-                class="sc-papXJ sc-jqUVSM eeksmv kispeS"
+                class="sc-papXJ sc-jqUVSM dvrVtg kdCahI"
               >
                 2
                  
                 KG
               </p>
               <button
-                class="sc-iqcoie rqbip"
+                class="sc-iqcoie hHzZwx"
               >
                 <svg
                   color="#8e8e93"
@@ -143,10 +143,10 @@ exports[`CheckoutModalView Deve desenhar o componente com produtos corretamente 
           </div>
         </div>
         <div
-          class="sc-dmRaPn jRXCpj"
+          class="sc-kgflAQ vphWt"
         >
           <p
-            class="sc-kgflAQ knhtDh"
+            class="sc-fLlhyt iqfETk"
           >
             Total: 
             R$ 1,00
@@ -176,7 +176,7 @@ exports[`CheckoutModalView Deve desenhar o componente com produtos corretamente 
               />
             </svg>
             <p
-              class="sc-gKXOVf xXklM"
+              class="sc-gKXOVf kxWVsY"
             >
               Limpar Carrinho
             </p>
@@ -204,14 +204,14 @@ exports[`CheckoutModalView Deve desenhar o componente com produtos corretamente 
               />
             </svg>
             <p
-              class="sc-gKXOVf xXklM"
+              class="sc-gKXOVf kxWVsY"
             >
               Finalizar Pedido
             </p>
           </button>
         </div>
         <div
-          class="sc-fLlhyt eMmABn"
+          class="sc-bBrHrO eMaPbj"
         >
           <div
             class="sc-crXcEl inNjle"
@@ -357,7 +357,7 @@ exports[`CheckoutModalView Deve desenhar o componente corretamente 1`] = `
           </p>
         </div>
         <div
-          class="sc-fLlhyt eMmABn"
+          class="sc-bBrHrO eMaPbj"
         >
           <div
             class="sc-crXcEl inNjle"

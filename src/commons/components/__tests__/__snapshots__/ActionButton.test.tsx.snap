@@ -8,7 +8,7 @@ exports[`ActionButton Deve desenhar o componente corretamente 1`] = `
       color="#57bd41"
     >
       <p
-        class="sc-gsnTZi fWOnJO"
+        class="sc-gsnTZi bpuiGC"
       >
         ANY_BUTTON_TEXT
       </p>

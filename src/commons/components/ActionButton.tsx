@@ -57,4 +57,8 @@ const Button = styled.button<Partial<ActionButtonProps>>`
 const Text = styled.p`
     font-size: 14px;
     margin: 0;
+
+    @media (max-width: 500px) {
+        font-size: 10px;
+    }
 `

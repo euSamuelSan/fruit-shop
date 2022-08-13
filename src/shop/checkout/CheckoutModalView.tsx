@@ -59,10 +59,10 @@ export default function CheckoutModalView({
         return (
             <Container>
                 <ItemsGridHeader>
-                    <ItemsGridHeaderText></ItemsGridHeaderText>
+                    <EmptySpace></EmptySpace>
                     <ItemsGridHeaderText>Produto</ItemsGridHeaderText>
                     <ItemsGridHeaderText>Subtotal</ItemsGridHeaderText>
-                    <ItemsGridHeaderText></ItemsGridHeaderText>
+                    <EmptySpace></EmptySpace>
                 </ItemsGridHeader>
                 {items.map((item, index) => renderItemOverview(item, index))}
             </Container>
@@ -135,12 +135,31 @@ const ItemsGridHeader = styled.div`
     grid-template-columns: 0.4fr 0.7fr 1.9fr 1fr;
     padding: 0 10px;
     height: 40px;
+
+    @media (max-width: 360px) {
+        grid-template-columns: 0.8fr 2fr 1.2fr;
+        padding: 0 5px;
+    }
 `
 
 const ItemsGridHeaderText = styled.p`
     color: ${Colors.black};
     font-weight: bold;
     margin: 0;
+
+    @media (max-width: 500px) {
+        font-size: 14px;
+    }
+
+    @media (max-width: 360px) {
+        font-size: 13px;
+    }
+`
+
+const EmptySpace = styled(ItemsGridHeaderText)`
+    @media (max-width: 360px) {
+        display: none;
+    }
 `
 
 const Container = styled.div`
@@ -160,7 +179,7 @@ const Footer = styled.div`
     padding: 10px;
 
     @media (max-width: 500px) {
-        font-size: 16px;
+        font-size: 12px;
     }
 `
 

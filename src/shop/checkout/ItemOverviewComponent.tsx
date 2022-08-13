@@ -48,7 +48,7 @@ export default function ItemOverviewComponent({
             <Image src={product.image} alt={product.name} />
             <Text>{product.name}</Text>
             <Text>
-                <b>{standardizePrice(product.price * product.quantity)}</b> (
+                <b>{standardizePrice(product.price * product.quantity)}</b>(
                 {standardizePrice(product.price)} por {product.measurementUnit})
             </Text>
             {renderActions()}
@@ -62,6 +62,11 @@ const Container = styled.div<Partial<ItemOverviewComponentProps>>`
     height: 40px;
     padding: 0 10px;
 
+    @media (max-width: 360px) {
+        grid-template-columns: 0.8fr 2fr 1.2fr;
+        padding: 0 5px;
+    }
+
     background-color: ${props =>
         typeof props.index === 'number' && props.index % 2 === 0
             ? Colors.lightBlueGreyFour
@@ -74,16 +79,33 @@ const Image = styled.img`
 
     display: block;
     margin: auto;
+
+    @media (max-width: 500px) {
+        max-width: 30px;
+        max-height: 30px;
+    }
+
+    @media (max-width: 360px) {
+        display: none;
+    }
 `
 
 const Text = styled.p`
     color: ${Colors.black};
     margin: 0;
     line-height: 38px;
+    font-size: 14px;
+
+    @media (max-width: 500px) {
+        font-size: 12px;
+    }
 `
 
 const QuantityText = styled(Text)`
     font-size: 12px;
+    @media (max-width: 500px) {
+        font-size: 10px;
+    }
 `
 
 const ActionsContainer = styled.div`
@@ -103,6 +125,16 @@ const Action = styled.button`
 
     width: 34px;
     height: 34px;
+
+    @media (max-width: 500px) {
+        width: 30px;
+        height: 30px;
+    }
+
+    @media (max-width: 360px) {
+        width: 27px;
+        height: 27px;
+    }
 
     &:hover {
         background-color: rgb(0, 0, 0, 0.1);
