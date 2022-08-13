@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+To perform the login, please use **DEV** as username and **DEV#123** as password
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

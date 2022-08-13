@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActionButton Deve desenhar o componente corretamente 1`] = `
+<body>
+  <div>
+    <button
+      class="sc-bczRLJ hEiFb"
+      color="#57bd41"
+    >
+      <p
+        class="sc-gsnTZi fWOnJO"
+      >
+        ANY_BUTTON_TEXT
+      </p>
+    </button>
+  </div>
+</body>
+`;

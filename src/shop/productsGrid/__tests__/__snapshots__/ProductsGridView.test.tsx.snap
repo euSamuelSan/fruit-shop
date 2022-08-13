@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductsGridView Deve desenhar o componente corretamente 1`] = `
+<body>
+  <div>
+    <div
+      class="sc-hKMtZM dBsRS"
+    />
+  </div>
+</body>
+`;

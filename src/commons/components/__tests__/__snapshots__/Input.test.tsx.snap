@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input Deve desenhar o componente corretamente 1`] = `
+<body>
+  <div>
+    <input
+      class="sc-bczRLJ hKuxkL"
+      type="text"
+      value=""
+    />
+  </div>
+</body>
+`;

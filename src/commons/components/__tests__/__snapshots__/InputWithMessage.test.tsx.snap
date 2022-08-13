@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputWithMessage Deve desenhar o componente com o Input inválido 1`] = `
+<body>
+  <div>
+    <div
+      class="sc-gsnTZi dxCewW"
+    >
+      <label
+        class="sc-eCYdqJ kjGVhh"
+      >
+        ANY_LABEL
+      </label>
+      <input
+        class="sc-bczRLJ hKuxkL sc-dkzDqf enGFyK"
+        type="text"
+        value=""
+      />
+      <p
+        class="sc-hKMtZM kNePtT"
+      >
+        * 
+        ANY_INVALID_MESSAGE
+      </p>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`InputWithMessage Deve desenhar o componente corretamente 1`] = `
+<body>
+  <div>
+    <div
+      class="sc-gsnTZi dxCewW"
+    >
+      <label
+        class="sc-eCYdqJ kjGVhh"
+      >
+        ANY_LABEL
+      </label>
+      <input
+        class="sc-bczRLJ hKuxkL sc-dkzDqf dsjBsf"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+</body>
+`;
