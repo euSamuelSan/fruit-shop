@@ -89,7 +89,7 @@ exports[`LoginScreen Deve desenhar o componente corretamente 1`] = `
             />
           </svg>
           <p
-            class="sc-gsnTZi fWOnJO"
+            class="sc-gsnTZi bpuiGC"
           >
             Entrar
           </p>

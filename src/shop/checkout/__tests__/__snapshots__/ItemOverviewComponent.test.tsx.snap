@@ -4,25 +4,25 @@ exports[`ItemOverviewComponent Deve desenhar o componente corretamente 1`] = `
 <body>
   <div>
     <div
-      class="sc-bczRLJ kgbsAz"
+      class="sc-bczRLJ jCrKuC"
     >
       <img
         alt="Maçã"
-        class="sc-gsnTZi dITewf"
+        class="sc-gsnTZi dLiuVt"
         src="apple.png"
       />
       <p
-        class="sc-dkzDqf WujuW"
+        class="sc-dkzDqf cpOprJ"
       >
         Maçã
       </p>
       <p
-        class="sc-dkzDqf WujuW"
+        class="sc-dkzDqf cpOprJ"
       >
         <b>
           R$ 5,56
         </b>
-         (
+        (
         R$ 5,56
          por 
         KG
@@ -32,7 +32,7 @@ exports[`ItemOverviewComponent Deve desenhar o componente corretamente 1`] = `
         class="sc-eCYdqJ cWIIhL"
       >
         <button
-          class="sc-jSMfEi dJYPMX"
+          class="sc-jSMfEi fSwEsX"
         >
           <svg
             color="#8e8e93"
@@ -54,14 +54,14 @@ exports[`ItemOverviewComponent Deve desenhar o componente corretamente 1`] = `
           </svg>
         </button>
         <p
-          class="sc-dkzDqf sc-hKMtZM WujuW hFWOih"
+          class="sc-dkzDqf sc-hKMtZM cpOprJ jjQKFz"
         >
           1
            
           KG
         </p>
         <button
-          class="sc-jSMfEi dJYPMX"
+          class="sc-jSMfEi fSwEsX"
         >
           <svg
             color="#8e8e93"

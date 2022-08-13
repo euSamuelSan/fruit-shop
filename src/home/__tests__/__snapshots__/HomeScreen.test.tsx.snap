@@ -4,10 +4,10 @@ exports[`HomeScreen Deve desenhar o componente corretamente 1`] = `
 <body>
   <div>
     <div
-      class="sc-iTONeN hVhjZO"
+      class="sc-iAvgwm eGHkrS"
     >
       <svg
-        class="sc-iAvgwm hbzhyg"
+        class="sc-efBctP hMYYdx"
         color="#ffffff"
         fill="currentColor"
         height="40"
@@ -27,15 +27,15 @@ exports[`HomeScreen Deve desenhar o componente corretamente 1`] = `
         />
       </svg>
       <h1
-        class="sc-efBctP fWfCFy"
+        class="sc-cTQhss iwHhSm"
       >
         Sua Horta
       </h1>
       <div
-        class="sc-cTQhss eXGBpk"
+        class="sc-jOrMOR UYSAN"
       >
         <button
-          class="sc-jOrMOR jsAYQy"
+          class="sc-dPyBCJ bpoZpf"
         >
           <svg
             color="#ffffff"
@@ -57,7 +57,7 @@ exports[`HomeScreen Deve desenhar o componente corretamente 1`] = `
           </svg>
         </button>
         <button
-          class="sc-jOrMOR jsAYQy"
+          class="sc-dPyBCJ bpoZpf"
         >
           <svg
             color="#ffffff"
@@ -118,18 +118,18 @@ exports[`HomeScreen Deve desenhar o componente corretamente 1`] = `
       />
     </div>
     <div
-      class="sc-cOFTSb huTOMH"
+      class="sc-BeQoi jrQVJA"
     >
       <p
-        class="sc-BeQoi fVnnro"
+        class="sc-kgUAyh DLtCR"
       >
         © 2022 SAN, Samuel.
       </p>
       <div
-        class="sc-kgUAyh iZhTkl"
+        class="sc-hTtwUo gOodsx"
       >
         <a
-          class="sc-hTtwUo dhNByH"
+          class="sc-jgbSNz hBDjWS"
           href="https://github.com/euSamuelSan"
           target="_blank"
         >
@@ -153,7 +153,7 @@ exports[`HomeScreen Deve desenhar o componente corretamente 1`] = `
           </svg>
         </a>
         <a
-          class="sc-hTtwUo dhNByH"
+          class="sc-jgbSNz hBDjWS"
           href="https://www.linkedin.com/in/samuel-san-juan/"
           target="_blank"
         >
@@ -177,7 +177,7 @@ exports[`HomeScreen Deve desenhar o componente corretamente 1`] = `
           </svg>
         </a>
         <a
-          class="sc-hTtwUo dhNByH"
+          class="sc-jgbSNz hBDjWS"
           href="https://instagram.com/euSamuelSan"
           target="_blank"
         >
@@ -201,7 +201,7 @@ exports[`HomeScreen Deve desenhar o componente corretamente 1`] = `
           </svg>
         </a>
         <a
-          class="sc-hTtwUo dhNByH"
+          class="sc-jgbSNz hBDjWS"
           href="https://twitter.com/euSamuelSan"
           target="_blank"
         >
