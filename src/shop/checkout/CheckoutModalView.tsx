@@ -9,6 +9,7 @@ import ActionButton from '../../commons/components/ActionButton'
 import ItemOverviewComponent from './ItemOverviewComponent'
 import { Fruit } from '../ProductsAPI'
 import { standardizePrice } from '../../commons/StringUtils'
+import OrderToPrint from './OrderToPrint'
 
 type ProductWithQuantity = Fruit & {
     quantity: number
@@ -20,13 +21,18 @@ export type CheckoutModalViewProps = {
     items: ProductWithQuantity[]
     clearCart: () => void
     getTotalPrice: () => number
+    orderToPrintRef: React.RefObject<HTMLDivElement>
+    handlePrintOrder: () => void
 }
+
 export default function CheckoutModalView({
     isModalVisible,
     setIsModalVisible,
     items,
     clearCart,
     getTotalPrice,
+    orderToPrintRef,
+    handlePrintOrder,
 }: CheckoutModalViewProps): JSX.Element {
     const renderNoContent = (): JSX.Element => {
         return (
@@ -86,9 +92,7 @@ export default function CheckoutModalView({
                         />
                         <ActionButton
                             text="Finalizar Pedido"
-                            onClick={() => {
-                                //TODO
-                            }}
+                            onClick={handlePrintOrder}
                             icon={
                                 <BsCreditCard2Back
                                     size={16}
@@ -99,6 +103,14 @@ export default function CheckoutModalView({
                         />
                     </Footer>
                 ) : null}
+
+                <HiddenDiv>
+                    <OrderToPrint
+                        ref={orderToPrintRef}
+                        items={items}
+                        getTotalPrice={getTotalPrice}
+                    />
+                </HiddenDiv>
             </>
         </Modal>
     )
@@ -152,4 +164,8 @@ const TotalPriceText = styled.p`
     color: ${Colors.black};
     font-weight: 500;
     margin: 0 auto 0 0;
+`
+
+const HiddenDiv = styled.div`
+    display: none;
 `

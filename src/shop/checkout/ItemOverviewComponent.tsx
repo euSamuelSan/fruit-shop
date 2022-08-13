@@ -63,7 +63,9 @@ const Container = styled.div<Partial<ItemOverviewComponentProps>>`
     padding: 0 10px;
 
     background-color: ${props =>
-        props.index! % 2 === 0 ? Colors.lightBlueGreyFour : Colors.white};
+        typeof props.index === 'number' && props.index % 2 === 0
+            ? Colors.lightBlueGreyFour
+            : Colors.white};
 `
 
 const Image = styled.img`

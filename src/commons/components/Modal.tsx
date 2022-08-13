@@ -57,7 +57,7 @@ const ModalOverlay = styled.div<Partial<ModalProps>>`
     width: 100%;
     height: 100%;
     background-color: rgb(0, 0, 0, 0.2);
-    z-index: ${props => props.zIndex! - 1};
+    z-index: ${props => (props.zIndex ? props.zIndex - 1 : 1)};
 `
 
 const ModalContainer = styled.div<Partial<ModalProps>>`
@@ -67,8 +67,8 @@ const ModalContainer = styled.div<Partial<ModalProps>>`
     height: ${props => props.height};
 
     border-radius: 4px;
-    top: 25%;
-    left: 35%;
+    top: 13vw;
+    left: 32vw;
 
     background-color: ${Colors.white};
 

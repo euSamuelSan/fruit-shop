@@ -11,7 +11,7 @@ type CartButtonComponentProps = {
 export default function CartButtonComponent({
     productId,
 }: CartButtonComponentProps): JSX.Element {
-    const { onChangeCartItems, cartItems } = useUserContext()
+    const { onChangeCartItems } = useUserContext()
 
     const handleOnClick = () => {
         onChangeCartItems('add', productId)

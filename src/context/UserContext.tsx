@@ -18,7 +18,7 @@ type UserContextProps = {
 }
 export const UserContext = React.createContext<UserContextProps>({
     cartItems: {},
-    onChangeCartItems: (operation, productId) => {
+    onChangeCartItems: () => {
         // initializer
     },
     validatesUserToken: () => {

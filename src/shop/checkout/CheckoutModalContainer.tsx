@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
+import { useReactToPrint } from 'react-to-print'
 import { useUserContext } from '../../context/UserContext'
 import { Fruit, getFruitById } from '../ProductsAPI'
 import CheckoutModalView from './CheckoutModalView'
@@ -16,6 +17,7 @@ export default function CheckoutModalContainer({
 }: CheckoutModalContainerProps): JSX.Element {
     const [fetchedItems, setFetchedItems] = useState<ProductWithQuantity[]>([])
     const { cartItems, onChangeCartItems } = useUserContext()
+    const orderToPrintRef = useRef<HTMLDivElement>(null)
 
     useEffect(() => {
         fetchCartItems()
@@ -26,13 +28,17 @@ export default function CheckoutModalContainer({
         const data = await Promise.all(
             itemsIds.map(id => getFruitById(id))
         ).then(responses =>
-            responses.map(response => enrichProduct(response.data))
+            responses.map(response => enrichProduct(response?.data))
         )
 
         setFetchedItems(data)
     }
 
-    const enrichProduct = (product: Fruit): ProductWithQuantity => {
+    const enrichProduct = (product?: Fruit): ProductWithQuantity => {
+        if (!product)
+            throw new Error(
+                'Um Produto não foi carregado corretamente. Tente novamente mais tarde.'
+            )
         return {
             ...product,
             quantity: cartItems[product.id],
@@ -50,6 +56,15 @@ export default function CheckoutModalContainer({
         )
     }
 
+    const handlePrintOrder = useReactToPrint({
+        content: () => orderToPrintRef.current,
+        onAfterPrint: () => {
+            clearCart()
+            setIsModalVisible(false)
+        },
+        documentTitle: 'Resumo do pedido',
+    })
+
     return (
         <CheckoutModalView
             isModalVisible={isModalVisible}
@@ -57,6 +72,8 @@ export default function CheckoutModalContainer({
             items={fetchedItems}
             clearCart={clearCart}
             getTotalPrice={getTotalPrice}
+            orderToPrintRef={orderToPrintRef}
+            handlePrintOrder={handlePrintOrder}
         />
     )
 }
