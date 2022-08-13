@@ -50,7 +50,8 @@ export default function Modal({
 }
 
 const ModalOverlay = styled.div<Partial<ModalProps>>`
-    position: absolute;
+    position: fixed;
+    box-sizing: border-box;
     top: 0em;
     left: 0em;
     width: 100%;
