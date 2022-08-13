@@ -32,7 +32,8 @@ const Container = styled.div`
     flex-direction: column;
     align-items: center;
     background-color: ${Colors.veryLightPink};
-    height: 100vh;
+    min-height: 100vh;
+    padding: 10px 0;
 `
 
 const CatalogHeader = styled.div`
